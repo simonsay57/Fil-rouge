@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Luxurious Roman', cursive;
+}
+.contener {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(78, 78, 78);
+
+}
+.firstanecdote, .secondanecdote, .troisiemeanecdote, .longueanecdote {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    padding: 3%;
+    text-align: center;
+    align-items: center;
+}
+img {
+    width: 100%;
+    height: 25%;
+}
+p {
+    font-size: 21px;
+}
+h2 {
+    color: red;
+}
